@@ -1,0 +1,49 @@
+.aa-homepage-container {
+  height: 100vh;
+}
+.aa-homepage-top-container {
+  background-color: purple;
+  height: 70vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 25px 25px;
+}
+.aa-homepage-top-container h1 {
+  color: #fff;
+  font-size: 6rem;
+  margin: 0;
+}
+.aa-homepage-coloured-heading {
+  color: green;
+}
+.aa-homepage-bottom-container {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.homepage-button {
+  width: 80%;
+  height: 150px;
+  font-size: 3rem;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  background-color: purple;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.homepage-button:hover {
+  color: green;
+  background-color: #fff;
+}
+/* Search Location Page */
+
+.aa-searach-location-container {
+  background-color: purple;
+  height: 100vh;
+}
