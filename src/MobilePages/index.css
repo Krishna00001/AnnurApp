@@ -46,4 +46,168 @@
 .aa-searach-location-container {
   background-color: purple;
   height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.aa-search-location-top-container h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.aa-search-location-map-container {
+  height: 60vh;
+  width: 80%;
+  border-radius: 20%;
+}
+.aa-search-location-submit-button {
+  width: 80%;
+  height: 150px;
+  cursor: pointer;
+  background-color: #fff;
+  color: green;
+  font-size: 3rem;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 0px;
+  outline: none;
+}
+/*Menu Page */
+.aa-menupage-container {
+  height: 100vh;
+}
+.aa-menupage-carousel-container {
+  height: 60vh;
+  width: 100%;
+}
+/* Carousel styles */
+.ant-carousel .slick-dots li button {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50% !important;
+}
+.ant-carousel .slick-dots li {
+  margin-left: 50px !important;
+}
+.ant-carousel .slick-dots-bottom {
+  margin-bottom: 100px;
+  margin-left: -10px !important;
+}
+/*Menu items */
+.aa-menupage-bottom-container {
+  margin-top: 280px;
+  display: flex;
+}
+.aa-menupage-menu-item {
+  width: 300px;
+  height: 300px;
+  border: 1px solid grey;
+  margin-left: 100px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  cursor: pointer;
+}
+.aa-menupage-menu-item:hover {
+  width: 320px;
+  height: 320px;
+  background-color: #fff;
+}
+.aa-menupage-menu-item:hover h2 {
+  color: green;
+}
+.aa-menupage-menu-item h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+/*Bus Page Styles*/
+.aa-buspage-stop-station-container {
+  padding: 50px;
+}
+.aa-buspage-station-container {
+  height: auto;
+  width: 80%;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  background-color: purple;
+  cursor: pointer;
+  color: #fff;
+  padding: 30px;
+}
+.aa-buspage-station-container h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.aa-buspage-station-container p {
+  font-size: 2rem;
+}
+.aa-buspage-stop-container {
+  height: auto;
+  width: 80%;
+  color: #fff;
+  margin-top: 100px;
+}
+.aa-buspage-stop-heading-container {
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  background-color: purple;
+  padding: 30px;
+}
+.aa-buspage-stop-container h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.aa-buspage-stop-container p {
+  font-size: 2rem;
+}
+.aa-buspage-stop-details-container-item {
+  margin-top: 30px;
+  background-color: purple;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  cursor: pointer;
+}
+/*Bus Station Page Style */
+
+.aa-bus-station-page-container {
+  height: 50vh;
+}
+.aa-bus-station-map-container {
+  height: 60vh;
+}
+.aa-bus-station-timings-container {
+  width: 80%;
+  padding: 50px;
+}
+.aa-bus-station-timings-headings-container {
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  background-color: purple;
+  padding: 30px;
+}
+.aa-bus-station-timings-headings-container h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.aa-bus-station-timings-details-container {
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px green;
+  background-color: purple;
+  padding: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 2rem;
 }
